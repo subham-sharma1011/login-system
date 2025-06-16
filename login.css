@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+body {
+  background: linear-gradient(90deg, rgb(41, 87, 214) 0%, rgb(39, 6, 138) 50%);
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 15px;
+  padding: 45px;
+  max-width: 350px;
+}
+input,
+select {
+  font-family: "Poppins";
+  font-size: 14px;
+  padding: 15px;
+  width: 100%;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: rgb(243, 241, 241);
+  margin: 0 0 15px;
+  outline: 0;
+}
+
+button {
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: #3324be;
+}
+button:hover {
+  background-color: #2957d6;
+}
+
+a {
+  color: rgb(41, 9, 156);
+}
+.message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+
+.message a {
+  color: #3324be;
+  text-decoration: none;
+}
+h1 {
+  font-size: 20px;
+}
+option {
+  font-family: "Poppins";
+}
+option:first {
+  color: #bbb;
+}
+.error {
+  color: red;
+}
+.success {
+  color: green;
+}
